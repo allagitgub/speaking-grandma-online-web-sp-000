@@ -12,7 +12,9 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 def speak_to_grandma(phrase)
   if(phrase == "I LOVE YOU GRANDMA!")
-    puts "I LOVE YOU TOO PUMPKIN!"
+    answer = "I LOVE YOU TOO PUMPKIN!"
+    puts answer
+    answer
   end
 end
 
